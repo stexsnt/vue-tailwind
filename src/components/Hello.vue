@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Hello from './components/Hello.vue';
+
 </script>
 
 <template>
-<Hello></Hello>
+<h1 class="text-4xl">Hello World</h1>
 </template>
 
 <style scoped>

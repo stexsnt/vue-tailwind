@@ -9,7 +9,7 @@ const count = ref(0)
 <template>
   <h1 class="text-5xl leading-tight">{{ msg }}</h1>
 
-  <div class="card">
+  <div>
     <button type="button" class="mb-2 rounded-lg border border-transparent px-4 py-2 text-base font-medium bg-gray-800 dark:bg-gray-100 cursor-pointer transition-colors duration-200 hover:border-indigo-500 focus:outline focus:outline-4 focus:outline-blue-500" @click="count++">count is {{ count }}</button>
     <p>
       Edit
@@ -31,7 +31,7 @@ const count = ref(0)
       >Vue Docs Scaling up Guide</a
     >.
   </p>
-
+  
   
   <p class="text-gray-500">Click on the Vite and Vue logos to learn more</p>
 </template>
